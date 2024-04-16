@@ -9,7 +9,7 @@
 }
 
 * {
-    /* cursor: url("img/clickm.png") 50 58, auto; */
+    cursor: url("img/clickm.png") 50 58, auto;
 }
 
 body {
@@ -25,29 +25,7 @@ body {
 }
 
 
-/* landing page */
-
-#button {
-    text-decoration: none;
-
-    position: absolute;
-    top: 7vh;
-    left: 15vw;
-    padding: 40px;
-    width: 550px;
-    background-color: magenta;
-    
-    font-family: 'Nuances';
-    font-size: 80pt;
-    color: rgb(255, 239, 255);
-}
-
-#button:hover{
-    cursor: url("img/clickm.png") 50 58, auto;
-}
-
-
-/* main page */
+/* content begin */
 
 #title {
     position: absolute;
@@ -300,5 +278,54 @@ img {
     #seb-bio {
         width: 330px;
     }
+}
 
+@media screen and (max-width: 600px){
+    body {
+        overflow:auto;
+        display:grid;
+        grid-template-columns:1fr;
+    }
+     
+        #title, #subtitle1, #subtitle2, #anther1, #anther2, #anther-info, #anther-bio, #anther-iframe,
+        #emi, #and, #michelle, #emi-info, #emi-bio, #emi-iframe,
+        #kang1, #kang2, #kang-info, #kang-bio, #kang-iframe, 
+        #seb1, #seb2, #seb-info, #seb-bio, #seb-iframe,
+        .click, img{
+            position:static;
+            width:100%;
+            margin: 0;
+        }
+
+        .click {
+            height: max-content;
+        }
+     
+     
+        iframe {
+            display:none;
+        }
+     
+        #click1 { order:1; }
+        #click2 { order:2; }
+        #click3 { order:3; }
+        #click4 { order:4; }
+        #click5 { order:5; }
+        #click6 { order:6; }
+        #click7 { order:7; }
+        #click8 { order:8; }
+        #click9 { order:9; }
+        #click10 { order:10; }
+        #click11 { order:11; }
+        #click12 { order:12; }
+        #click13 { order:13; }
+        #click14 { order:14; }
+    
+     
+        p {
+            font-size: 18pt;
+        }
+
+
+    
 }
