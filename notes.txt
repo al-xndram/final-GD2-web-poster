@@ -1,0 +1,9 @@
+have intro type that changes cursor on hover
+big cursor 
+
+find spectrums of randomness -> type and colour are designed, position is random...
+
+only >1000px for now
+
+dimensions px 
+position =  vw
